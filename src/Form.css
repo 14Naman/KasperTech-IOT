@@ -1,0 +1,70 @@
+span.MuiSlider-root{
+    width: 20%;
+}
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* height: 55%; */
+  }
+
+  .close-button{
+    float: right;
+  }
+
+  .question-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .Oauth{
+    margin-bottom: 20px;
+  }
+  #btn{
+    margin-bottom: 30px;
+  }
+  .google-login-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .google-login-button:hover {
+    background-color: #f1f1f1;
+  }
+
+  a:active{
+    color: blue;
+  }
+  a:hover{
+    color: red;
+  }
+  .warning{
+    color: red;
+    margin-bottom: 10px;
+  }
+.map_container{
+  
+  height: 30vh;
+  margin: 10px auto;
+  width: 100%;
+}
+.map_cont1{
+  display: none;
+}
+
